@@ -45,7 +45,7 @@ function Header() {
                 <div className="dropdown_programs">
                     <button className="dropbtn_programs">Our Programs</button>
                     <div className="dropdown_content_programs">
-                        <button className="connect">Gift n_Connect</button>
+                        <button className="connect" onClick={() => history.push('/gift')}>Gift n_Connect</button>
                         <button className="farm">Green Farm Project</button>
                         <button className="youth">Youth Education Empowerment and Child Development Programs</button>
                         <button className="touch">Touch Life Community Services (TLCS)</button>
