@@ -7,7 +7,10 @@ function Gift(props) {
     return (
         <div className="gift">
             <Header />
-            {/* <img className='needyimg' src="needy1.jpg" alt='head'/> */}
+            <img className='needyimg' src="slogan.png" alt='head'/>
+            <div className="slogan">
+                SLOGAN
+            </div>
             {/* <img className="gift_image" src='gift-logo.png' alt="okay"/> */}
             {/* <img className="bw_image" src='brightworld.jpeg' alt="okay"/> */}
             <p>

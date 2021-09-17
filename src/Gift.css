@@ -5,6 +5,16 @@
 .gift > li {
     display: block;
 }
+.needyimg {
+    width: 100%;
+}
+.slogan {
+    position: absolute;
+    top: 180px;
+    left: 16px;
+    font-size: 28px;
+    font-weight: bold;
+}
 .gift_image {
     border-radius: 50%;
     height: 200px;
