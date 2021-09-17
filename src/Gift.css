@@ -1,0 +1,18 @@
+.gift > p {
+    text-align: center;
+    font-size: 30px;
+}
+.gift > li {
+    display: block;
+}
+.gift_image {
+    border-radius: 50%;
+    height: 200px;
+    left: 0%;
+}
+.bw_image {
+    border-radius: 30%;
+    position: absolute;
+    right: 0%;
+    top: 22%;
+}

@@ -1,0 +1,7 @@
+.home_row {
+    display: flex;
+    justify-content: space-between;
+}
+#3 {
+    font-size: 13px;
+}
