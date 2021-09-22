@@ -42,9 +42,9 @@ function Gift(props) {
                 a stranger, and you invited Me in; I was naked, and<br/>
                 you clothed Me; I was sick, and you visited Me; I was<br/>
                 in prison, and you came to Me.<br/>
-                <h2>Approach</h2>
+                <h2 style={{ textAlign:"center" }}>Approach</h2>
                 Increase Community Participation and Waste Reduction.
-                <img src="approach.png" alt='participate' />
+                <img src="approach.png" alt='participate' className="approach"/>
                 <h1>Program Objective</h1>
                 Enhance the resilience of
                 individuals and communities

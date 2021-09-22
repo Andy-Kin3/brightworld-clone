@@ -1,5 +1,5 @@
 .gift > p {
-    text-align: center;
+    text-align: left;
     font-size: 30px;
 }
 .gift > li {
@@ -10,8 +10,8 @@
 }
 .slogan {
     position: absolute;
-    top: 180px;
-    left: 16px;
+    top: 170px;
+    left: 12px;
     font-size: 28px;
     font-weight: bold;
 }
@@ -25,4 +25,7 @@
     position: absolute;
     right: 0%;
     top: 22%;
+}
+.approach {
+    width: 100%;
 }
