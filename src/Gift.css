@@ -1,6 +1,12 @@
 .gift > p {
     text-align: left;
     font-size: 30px;
+    display: block;
+}
+.n_img {
+    position: absolute;
+    top: 700px;
+    left: 50%;
 }
 .gift > li {
     display: block;

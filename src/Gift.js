@@ -27,6 +27,7 @@ function Gift(props) {
                 people need direct humanitarian<br/>
                 assistance in Cameroon resulting<br/>
                 from ongoing crisis.<br/>
+                <img src="need1.png" alt="needy_pic" className="n_img"/>
                 <h1>Overview</h1>
                 Gift N_Connect is a strategic program of “Bright<br/>
                 World”. Building from the vision of “Bright World”<br/>
