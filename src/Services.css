@@ -23,6 +23,9 @@
         object-fit: contain;
         margin-bottom: 15px;
     }
+    .service:hover {
+        opacity: 0.3px;
+    }
 
     .service_info {
         height: 100px;

@@ -9,7 +9,7 @@ width: 91%;
 
 
 @media (max-width: 100px) {
-	padding: 70px 30px;
+	padding: 50px 30px;
 }
 `;
 
