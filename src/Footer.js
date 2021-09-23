@@ -7,15 +7,16 @@ Column,
 FooterLink,
 Heading,
 } from "./FooterStyles";
+import { Facebook, Instagram, Twitter, YouTube } from "@material-ui/icons/";
 
 const Footer = () => {
 return (
 	<Box>
-	<h1 style={{ color: "green",
+	{/* <h1 style={{ color: "green",
 				textAlign: "center",
 				marginTop: "-50px" }}>
 		BrightWorld: A Center Of Love
-	</h1>
+	</h1> */}
 	<Container>
 		<Row>
 		<Column>
@@ -43,28 +44,28 @@ return (
 			<FooterLink href="#">
 			<i className="fab fa-facebook-f">
 				<span style={{ marginLeft: "10px" }}>
-				Facebook
+				<Facebook />
 				</span>
 			</i>
 			</FooterLink>
 			<FooterLink href="#">
 			<i className="fab fa-instagram">
 				<span style={{ marginLeft: "10px" }}>
-				Instagram
+				<Instagram />
 				</span>
 			</i>
 			</FooterLink>
 			<FooterLink href="#">
 			<i className="fab fa-twitter">
 				<span style={{ marginLeft: "10px" }}>
-				Twitter
+				<Twitter />
 				</span>
 			</i>
 			</FooterLink>
 			<FooterLink href="#">
 			<i className="fab fa-youtube">
 				<span style={{ marginLeft: "10px" }}>
-				Youtube
+				<YouTube />
 				</span>
 			</i>
 			</FooterLink>

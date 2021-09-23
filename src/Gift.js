@@ -77,6 +77,7 @@ function Gift(props) {
                     <li>Health</li>
                     <li>Shelter</li>
                     <li>Social Fund</li>
+                    <img src="gift-logo.png" alt="gift" className="g_logo"/>
                 </ul>
             </p>
             <Footer />

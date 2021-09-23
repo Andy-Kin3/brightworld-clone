@@ -35,3 +35,10 @@
 .approach {
     width: 100%;
 }
+.g_logo {
+    border-radius: 50%;
+    width: 30%;
+    position: absolute;
+    right: 20px;
+    top: 3670px;
+}
