@@ -1,6 +1,13 @@
 .gift > p {
-    text-align: center;
+    text-align: left;
     font-size: 30px;
+    display: block;
+    margin: 30px;
+}
+.n_img {
+    position: absolute;
+    top: 700px;
+    left: 50%;
 }
 .gift > li {
     display: block;
@@ -10,8 +17,8 @@
 }
 .slogan {
     position: absolute;
-    top: 180px;
-    left: 16px;
+    top: 170px;
+    left: 12px;
     font-size: 28px;
     font-weight: bold;
 }
@@ -25,4 +32,14 @@
     position: absolute;
     right: 0%;
     top: 22%;
+}
+.approach {
+    width: 100%;
+}
+.g_logo {
+    border-radius: 50%;
+    width: 30%;
+    position: absolute;
+    right: 20px;
+    top: 3670px;
 }

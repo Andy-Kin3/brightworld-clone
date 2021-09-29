@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Box = styled.div`
-padding: 50px 60px;
+padding: 10px 60.5px;
 background: black;
 position: sticky;
 top: 50%;
@@ -9,7 +9,7 @@ width: 91%;
 
 
 @media (max-width: 100px) {
-	padding: 70px 30px;
+	padding: 50px 30px;
 }
 `;
 
@@ -19,7 +19,7 @@ export const Container = styled.div`
 	justify-content: center;
 	max-width: 100%;
 	margin: 0 auto;
-	/* background: red; */
+	${'' /* background: red; */}
 `
 
 export const Column = styled.div`
@@ -33,7 +33,7 @@ export const Row = styled.div`
 display: grid;
 grid-template-columns: repeat(auto-fill,
 						minmax(185px, 1fr));
-grid-gap: 20px;
+grid-gap: 10px;
 
 @media (max-width: 1000px) {
 	grid-template-columns: repeat(auto-fill,

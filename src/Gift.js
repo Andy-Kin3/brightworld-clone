@@ -27,6 +27,7 @@ function Gift(props) {
                 people need direct humanitarian<br/>
                 assistance in Cameroon resulting<br/>
                 from ongoing crisis.<br/>
+                <img src="need1.png" alt="needy_pic" className="n_img"/>
                 <h1>Overview</h1>
                 Gift N_Connect is a strategic program of “Bright<br/>
                 World”. Building from the vision of “Bright World”<br/>
@@ -42,9 +43,9 @@ function Gift(props) {
                 a stranger, and you invited Me in; I was naked, and<br/>
                 you clothed Me; I was sick, and you visited Me; I was<br/>
                 in prison, and you came to Me.<br/>
-                <h2>Approach</h2>
+                <h2 style={{ textAlign:"center" }}>Approach</h2>
                 Increase Community Participation and Waste Reduction.
-                <img src="approach.png" alt='participate' />
+                <img src="approach.png" alt='participate' className="approach"/>
                 <h1>Program Objective</h1>
                 Enhance the resilience of
                 individuals and communities
@@ -76,6 +77,7 @@ function Gift(props) {
                     <li>Health</li>
                     <li>Shelter</li>
                     <li>Social Fund</li>
+                    <img src="gift-logo.png" alt="gift" className="g_logo"/>
                 </ul>
             </p>
             <Footer />
