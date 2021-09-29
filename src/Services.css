@@ -14,7 +14,7 @@
     /* filter: blur(1px);
     -webkit-filter: blur(1px); */
     z-index: 1;
-
+    border-radius: 30px;
     }
 
     .services > img {
@@ -22,6 +22,7 @@
         width: 100%;
         object-fit: contain;
         margin-bottom: 15px;
+        border-radius: 30%;
     }
     .services > img:hover {
         opacity: 0.5;

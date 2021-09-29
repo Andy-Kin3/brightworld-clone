@@ -1,0 +1,28 @@
+.home_row {
+    display: flex;
+    justify-content: space-between;
+}
+#3 {
+    font-size: 13px;
+}
+.colours{
+    position: static;
+    padding: 50%;
+    animation-name: rainbow;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+@keyframes rainbow {
+    0% {
+        background-image: url("slogan.png");
+    }
+    10% {
+        background-color: url("needy.jpg");
+    }
+    30% {
+        background-color: url("mv.png");
+    }
+    100% {
+        background-color: url("donation.png");
+    }
+}

@@ -13,7 +13,7 @@ function Services(props) {
     //         }
     //     });
     // };
-    return (
+    return(
         <div className="services">
             <div className="service_info">
                 <p>{props.item}</p>

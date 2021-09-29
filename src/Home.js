@@ -4,11 +4,13 @@ import './Home.css'
 import Header from './Header';
 import Services from './Services';
 import Footer from './Footer';
+import Colors from "./Colors";
 
 function Home() {
     return (
         <div className="home">
             <Header />
+            <Colors />
             <div className='home_container'>
                 <div className="home_row">
                     <Link to="/gift" style={{textDecoration: "none"}}><Services id='1'
